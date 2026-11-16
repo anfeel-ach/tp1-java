@@ -2,7 +2,12 @@ public class Hello {
 
     public static void main(String[] args) 
 {
-    System.out.println("Bonjour");
+    Hello hello = new Hello();
+    System.out.println(hello.hi());
+}
+
+public String hi() {
+    return "Hello, World!";
 }
 
 }
